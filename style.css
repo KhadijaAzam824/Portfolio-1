@@ -1,0 +1,232 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+.body {
+    background-color: rgb(227, 250, 251);
+    /* color: rgb(255, 255, 255); */
+    font-family: BlinkMacSystemFont;
+
+}
+
+.khadijaportfolio {
+    color: rgba(255, 187, 0, 0.773);
+    font-size: 3rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    color: beige;
+}
+
+.nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 23px;
+    font-size: 2rem;
+
+
+}
+
+.nav ul li a {
+
+
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(234, 193, 118);
+
+}
+
+.first {
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-around;
+    margin: 30vh 0;
+    /* width: 50%; */
+    background-color: rgb(19, 24, 97);
+    align-items: center;
+    color: rgb(254, 253, 253);
+    border-style: dotted;
+    border-color: rgb(0, 255, 21);
+}
+
+.first div {
+    width: 30%;
+}
+
+.secondSection {
+    height: 80vh;
+    max-width: 80vw;
+    margin: auto;
+    background-color: rgb(19, 24, 97);
+    border-style: dotted;
+    border-color: rgb(0, 255, 21);
+
+}
+
+.secondSection h1 {
+
+    margin: auto;
+    color: rgba(255, 187, 0, 0.773);
+    background-color: black;
+    text-decoration: solid;
+    font-size: 2rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.secondSection .box {
+    background: aqua;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+
+}
+
+.secondSection .vertical {
+    height: 93px;
+    margin: 0 100px;
+
+    width: 2px;
+    background-color: aqua;
+
+
+
+}
+
+.rightSection {
+    /* background-color: white; */
+    width: 100%;
+    height: 70vh;
+}
+
+.developer-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 5%;
+}
+
+.developer-img-container {
+    width: 20px;
+    height: 20px;
+    /* background-position: center; */
+    border-radius: 50%;
+}
+
+/* .image2 {
+    width: 100px;
+    height: 100px;
+    border-radius:5%;
+}
+
+.image2-container {
+    width: 20px;
+    height: 20px;
+     /* background-position: center; */
+/* border-radius: 50%; */
+/* } */
+
+
+
+
+
+
+.leftSection {
+    font-size: 3rem;
+    margin-left: 1%;
+    margin-right: 2%;
+
+}
+
+.purple {
+    color: rgb(201, 4, 188);
+
+}
+
+#element {
+    color: aqua;
+
+}
+
+#kportfolio {
+    color: blueviolet
+}
+
+.vertical-title {
+    position: relative;
+    margin-top: 75px;
+    width: 150px;
+    font-size: 10px;
+    color: white;
+
+
+}
+
+.vertical-desc {
+    position: relative;
+    margin-top: 75px;
+    width: 150px;
+    font-size: 10px;
+    color: white;
+}
+
+.vertical-1 {
+    position: relative;
+    margin-top: 75px;
+    width: 150px;
+    font-size: 10px;
+    color: white;
+}
+
+.vertical-2 {
+    position: relative;
+    margin-top: 75px;
+    width: 150px;
+    font-size: 10px;
+    color: white;
+}
+
+.vertical-3 {
+    position: relative;
+    margin-top: 75px;
+    width: 150px;
+    font-size: 10px;
+    color: white;
+
+}
+
+
+
+.Whatihavedonesofar {
+    color: rgb(254, 254, 254)
+}
+
+main hr {
+    border: 0;
+    background: rgb(0, 255, 21);
+    height: 3px;
+    margin: 48px 84px;
+}
+
+#work {
+    color: aqua;
+    font-size: 1.8rem;
+
+}

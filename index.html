@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- you can put googel font link here <link rel="stylesheet" href=""> -->
+</head>
+<!-- from typed.js -->
+<main class="body">
+    <div class="header">
+        <nav class="nav">
+            <div class="left">
+                <span class="khadijaportfolio">Khadija's Portfolio</span>
+            </div>
+            <span id="kportfolio"></span>
+
+            <div class="right">
+                <ul class="nav ul">
+                    <li> <a href="/">Home </a></li>
+                    <li> <a href="/">About </a></li>
+                    <li> <a href="/">Services </a></li>
+                    <li> <a href="/">projects </a></li>
+                    <li> <a href="/">Contact</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+    <section class="first">
+
+        <div class="leftSection">Hi my name is <span class="purple">Khadija</span>
+
+
+            <div> and i am passionate
+                <div> Web developer</div>
+                <span id="element"></span>
+
+
+
+            </div>
+        </div>
+        <div class="rightSection">
+
+            <!-- Using img tag -->
+            <img src="assests/developer.png" alt="" class="developer-img">
+
+            <!-- Or as a background image -->
+            <div class="developer-img-container">
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <hr>
+    <div class="secondSection">
+        <span id="work"></span>
+
+        <h1>My work Experience:</h1>
+
+        <span class="Whatihavedonesofar">What i have done so far</span>
+
+        <div class="box">
+            <div class="vertical">
+                <!-- Using <img> tag
+                <img src="assests/imj.jpg" alt="" class="image2">
+
+                  Or as a background image 
+                <div class="image2-container"> -->
+
+                <div class="vertical-title">
+                    HTML Developer(2020-2022)
+                </div>
+            </div>
+            <div class="vertical">
+
+                <div class="vertical-desc">
+                    MERN Developer(2022-2024)
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consequatur, eligendi ex
+                    aliquid et, asperiores cum non nisi eius, minima deleniti eveniet. Dignissimos id qui
+                    reprehenderit omnis ipsa minima ab autem corporis eius cumque!
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, at. Tempora quo mollitia id
+                    voluptates, fuga nulla laudantium quia vero dolorem quaerat quasi dignissimos, nemo fugiat porro
+                    perferendis? Fugit, necessitatibus.
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consequatur, eligendi ex
+                    aliquid et, asperiores cum non nisi eius, minima deleniti eveniet. Dignissimos id qui
+                    reprehenderit omnis ipsa minima ab autem corporis eius cumque!
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+</main>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['<i>This</i> is my', ' portfolio website.'],
+        typeSpeed: 250,
+    });
+
+</script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#work', {
+        strings: ['<i>My</i> work  Experience', ' as a developer.'],
+        typeSpeed: 250,
+    });
+
+</script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#kportfolio', {
+        strings: ['<i>Made with</i> the help of', 'HTML and CSS.'],
+        typeSpeed: 200,
+    });
+
+</script>
+</body>
+
+</html>
